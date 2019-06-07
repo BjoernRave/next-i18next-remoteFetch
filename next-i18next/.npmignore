@@ -1,0 +1,31 @@
+# Untranspiled source and examples
+src
+examples
+
+# Dependencies
+node_modules
+
+# NextJs
+.next
+out
+
+# OS
+.DS_Store
+
+# Development Environment
+.vscode
+
+# Logs
+runtime.log
+
+# Testing
+__tests__
+coverage
+jest.*
+
+# Misc
+.circleci
+.all-contributorsrc
+greenkeeper.json
+jest-puppeteer.config.js
+.github

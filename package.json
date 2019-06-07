@@ -1,0 +1,29 @@
+{
+  "name": "next-i18next-remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch server.ts --exec ts-node --project tsconfig.server.json server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "i18next-express-middleware": "^1.8.0",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^8.1.0",
+    "next-i18next": "./next-i18next",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.5",
+    "@types/react": "^16.8.19",
+    "@zeit/next-typescript": "^1.1.1",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  }
+}
