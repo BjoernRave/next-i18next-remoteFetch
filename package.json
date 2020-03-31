@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "i18next-express-middleware": "^1.8.0",
     "isomorphic-fetch": "^2.2.1",
-    "next": "^8.1.0",
+    "next": "^9.3.3",
     "next-i18next": "./next-i18next",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
